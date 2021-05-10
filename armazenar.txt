@@ -1,0 +1,281 @@
+Pedido numero 1:Populacao 1000 de tamanho:Valor total da compra: R$12,72
+Pedido numero 1:Populacao 1000 de tamanho:Valor total da compra: R$18,15
+Pedido numero 1:Populacao 1000 de tamanho:Valor total da compra: R$25,13
+Pedido numero 1:Populacao 1000 de tamanho:Valor total da compra: R$12,72
+Pedido numero 1:Populacao 1000 de tamanho:Valor total da compra: R$19,01
+Pedido numero 1:Populacao 1000 de tamanho:Valor total da compra: R$20,01
+Pedido numero 1:Populacao 1000 de tamanho:Valor total da compra: R$21,96
+Pedido numero 1:Populacao 1000 de tamanho:Valor total da compra: R$19,61
+Pedido numero 1:Populacao 1000 de tamanho:Valor total da compra: R$21,06
+Pedido numero 1:Populacao 1000 de tamanho:Valor total da compra: R$19,50
+Pedido numero 1:Populacao 4000 de tamanho:Valor total da compra: R$12,72
+Pedido numero 1:Populacao 4000 de tamanho:Valor total da compra: R$12,72
+Pedido numero 1:Populacao 4000 de tamanho:Valor total da compra: R$12,72
+Pedido numero 1:Populacao 4000 de tamanho:Valor total da compra: R$12,72
+Pedido numero 1:Populacao 4000 de tamanho:Valor total da compra: R$12,72
+Pedido numero 1:Populacao 4000 de tamanho:Valor total da compra: R$12,72
+Pedido numero 1:Populacao 4000 de tamanho:Valor total da compra: R$12,72
+Pedido numero 1:Populacao 4000 de tamanho:Valor total da compra: R$12,72
+Pedido numero 1:Populacao 4000 de tamanho:Valor total da compra: R$12,72
+Pedido numero 1:Populacao 4000 de tamanho:Valor total da compra: R$12,72
+Pedido numero 1:Populacao 8000 de tamanho:Valor total da compra: R$12,72
+Pedido numero 1:Populacao 8000 de tamanho:Valor total da compra: R$12,72
+Pedido numero 1:Populacao 8000 de tamanho:Valor total da compra: R$12,72
+Pedido numero 1:Populacao 8000 de tamanho:Valor total da compra: R$12,72
+Pedido numero 1:Populacao 8000 de tamanho:Valor total da compra: R$12,72
+Pedido numero 1:Populacao 8000 de tamanho:Valor total da compra: R$12,72
+Pedido numero 1:Populacao 8000 de tamanho:Valor total da compra: R$12,72
+Pedido numero 1:Populacao 8000 de tamanho:Valor total da compra: R$12,72
+Pedido numero 1:Populacao 8000 de tamanho:Valor total da compra: R$12,72
+Pedido numero 1:Populacao 8000 de tamanho:Valor total da compra: R$12,72
+Pedido numero 1:Populacao 14000 de tamanho:Valor total da compra: R$12,72
+Pedido numero 1:Populacao 14000 de tamanho:Valor total da compra: R$12,72
+Pedido numero 1:Populacao 14000 de tamanho:Valor total da compra: R$12,72
+Pedido numero 1:Populacao 14000 de tamanho:Valor total da compra: R$12,72
+Pedido numero 1:Populacao 14000 de tamanho:Valor total da compra: R$12,72
+Pedido numero 1:Populacao 14000 de tamanho:Valor total da compra: R$12,72
+Pedido numero 1:Populacao 14000 de tamanho:Valor total da compra: R$12,72
+Pedido numero 1:Populacao 14000 de tamanho:Valor total da compra: R$12,72
+Pedido numero 1:Populacao 14000 de tamanho:Valor total da compra: R$12,72
+Pedido numero 1:Populacao 14000 de tamanho:Valor total da compra: R$12,72
+Pedido numero 2:Populacao 1000 de tamanho:Valor total da compra: R$55,65
+Pedido numero 2:Populacao 1000 de tamanho:Valor total da compra: R$47,49
+Pedido numero 2:Populacao 1000 de tamanho:Valor total da compra: R$49,92
+Pedido numero 2:Populacao 1000 de tamanho:Valor total da compra: R$43,15
+Pedido numero 2:Populacao 1000 de tamanho:Valor total da compra: R$49,02
+Pedido numero 2:Populacao 1000 de tamanho:Valor total da compra: R$30,65
+Pedido numero 2:Populacao 1000 de tamanho:Valor total da compra: R$39,62
+Pedido numero 2:Populacao 1000 de tamanho:Valor total da compra: R$41,94
+Pedido numero 2:Populacao 1000 de tamanho:Valor total da compra: R$43,00
+Pedido numero 2:Populacao 1000 de tamanho:Valor total da compra: R$31,31
+Pedido numero 2:Populacao 4000 de tamanho:Valor total da compra: R$23,78
+Pedido numero 2:Populacao 4000 de tamanho:Valor total da compra: R$31,41
+Pedido numero 2:Populacao 4000 de tamanho:Valor total da compra: R$31,07
+Pedido numero 2:Populacao 4000 de tamanho:Valor total da compra: R$24,38
+Pedido numero 2:Populacao 4000 de tamanho:Valor total da compra: R$33,45
+Pedido numero 2:Populacao 4000 de tamanho:Valor total da compra: R$30,92
+Pedido numero 2:Populacao 4000 de tamanho:Valor total da compra: R$24,28
+Pedido numero 2:Populacao 4000 de tamanho:Valor total da compra: R$23,78
+Pedido numero 2:Populacao 4000 de tamanho:Valor total da compra: R$30,25
+Pedido numero 2:Populacao 4000 de tamanho:Valor total da compra: R$33,31
+Pedido numero 2:Populacao 8000 de tamanho:Valor total da compra: R$23,80
+Pedido numero 2:Populacao 8000 de tamanho:Valor total da compra: R$31,00
+Pedido numero 2:Populacao 8000 de tamanho:Valor total da compra: R$23,79
+Pedido numero 2:Populacao 8000 de tamanho:Valor total da compra: R$31,01
+Pedido numero 2:Populacao 8000 de tamanho:Valor total da compra: R$23,79
+Pedido numero 2:Populacao 8000 de tamanho:Valor total da compra: R$24,27
+Pedido numero 2:Populacao 8000 de tamanho:Valor total da compra: R$23,78
+Pedido numero 2:Populacao 8000 de tamanho:Valor total da compra: R$23,79
+Pedido numero 2:Populacao 8000 de tamanho:Valor total da compra: R$23,78
+Pedido numero 2:Populacao 8000 de tamanho:Valor total da compra: R$23,78
+Pedido numero 2:Populacao 14000 de tamanho:Valor total da compra: R$32,52
+Pedido numero 2:Populacao 14000 de tamanho:Valor total da compra: R$38,88
+Pedido numero 2:Populacao 14000 de tamanho:Valor total da compra: R$32,35
+Pedido numero 2:Populacao 14000 de tamanho:Valor total da compra: R$31,42
+Pedido numero 2:Populacao 14000 de tamanho:Valor total da compra: R$30,85
+Pedido numero 2:Populacao 14000 de tamanho:Valor total da compra: R$30,74
+Pedido numero 2:Populacao 14000 de tamanho:Valor total da compra: R$31,56
+Pedido numero 2:Populacao 14000 de tamanho:Valor total da compra: R$31,71
+Pedido numero 2:Populacao 14000 de tamanho:Valor total da compra: R$30,79
+Pedido numero 2:Populacao 14000 de tamanho:Valor total da compra: R$30,37
+Pedido numero 3:Populacao 1000 de tamanho:Valor total da compra: R$100,76
+Pedido numero 3:Populacao 1000 de tamanho:Valor total da compra: R$113,60
+Pedido numero 3:Populacao 1000 de tamanho:Valor total da compra: R$114,64
+Pedido numero 3:Populacao 1000 de tamanho:Valor total da compra: R$110,29
+Pedido numero 3:Populacao 1000 de tamanho:Valor total da compra: R$129,35
+Pedido numero 3:Populacao 1000 de tamanho:Valor total da compra: R$108,30
+Pedido numero 3:Populacao 1000 de tamanho:Valor total da compra: R$130,18
+Pedido numero 3:Populacao 1000 de tamanho:Valor total da compra: R$110,13
+Pedido numero 3:Populacao 1000 de tamanho:Valor total da compra: R$108,74
+Pedido numero 3:Populacao 1000 de tamanho:Valor total da compra: R$87,87
+Pedido numero 3:Populacao 4000 de tamanho:Valor total da compra: R$74,41
+Pedido numero 3:Populacao 4000 de tamanho:Valor total da compra: R$71,93
+Pedido numero 3:Populacao 4000 de tamanho:Valor total da compra: R$72,71
+Pedido numero 3:Populacao 4000 de tamanho:Valor total da compra: R$67,72
+Pedido numero 3:Populacao 4000 de tamanho:Valor total da compra: R$78,80
+Pedido numero 3:Populacao 4000 de tamanho:Valor total da compra: R$66,44
+Pedido numero 3:Populacao 4000 de tamanho:Valor total da compra: R$59,83
+Pedido numero 3:Populacao 4000 de tamanho:Valor total da compra: R$83,13
+Pedido numero 3:Populacao 4000 de tamanho:Valor total da compra: R$77,63
+Pedido numero 3:Populacao 4000 de tamanho:Valor total da compra: R$76,94
+Pedido numero 3:Populacao 8000 de tamanho:Valor total da compra: R$68,56
+Pedido numero 3:Populacao 8000 de tamanho:Valor total da compra: R$75,10
+Pedido numero 3:Populacao 8000 de tamanho:Valor total da compra: R$58,75
+Pedido numero 3:Populacao 8000 de tamanho:Valor total da compra: R$68,78
+Pedido numero 3:Populacao 8000 de tamanho:Valor total da compra: R$68,50
+Pedido numero 3:Populacao 8000 de tamanho:Valor total da compra: R$70,99
+Pedido numero 3:Populacao 8000 de tamanho:Valor total da compra: R$68,30
+Pedido numero 3:Populacao 8000 de tamanho:Valor total da compra: R$68,50
+Pedido numero 3:Populacao 8000 de tamanho:Valor total da compra: R$68,55
+Pedido numero 3:Populacao 8000 de tamanho:Valor total da compra: R$66,09
+Pedido numero 3:Populacao 14000 de tamanho:Valor total da compra: R$98,11
+Pedido numero 3:Populacao 14000 de tamanho:Valor total da compra: R$102,38
+Pedido numero 3:Populacao 14000 de tamanho:Valor total da compra: R$99,28
+Pedido numero 3:Populacao 14000 de tamanho:Valor total da compra: R$82,05
+Pedido numero 3:Populacao 14000 de tamanho:Valor total da compra: R$97,18
+Pedido numero 3:Populacao 14000 de tamanho:Valor total da compra: R$82,04
+Pedido numero 3:Populacao 14000 de tamanho:Valor total da compra: R$96,22
+Pedido numero 3:Populacao 14000 de tamanho:Valor total da compra: R$92,98
+Pedido numero 3:Populacao 14000 de tamanho:Valor total da compra: R$98,99
+Pedido numero 3:Populacao 14000 de tamanho:Valor total da compra: R$100,50
+Pedido numero 4:Populacao 1000 de tamanho:Valor total da compra: R$259,09
+Pedido numero 4:Populacao 1000 de tamanho:Valor total da compra: R$261,99
+Pedido numero 4:Populacao 1000 de tamanho:Valor total da compra: R$217,00
+Pedido numero 4:Populacao 1000 de tamanho:Valor total da compra: R$260,12
+Pedido numero 4:Populacao 1000 de tamanho:Valor total da compra: R$212,53
+Pedido numero 4:Populacao 1000 de tamanho:Valor total da compra: R$263,02
+Pedido numero 4:Populacao 1000 de tamanho:Valor total da compra: R$244,03
+Pedido numero 4:Populacao 1000 de tamanho:Valor total da compra: R$211,21
+Pedido numero 4:Populacao 1000 de tamanho:Valor total da compra: R$236,99
+Pedido numero 4:Populacao 1000 de tamanho:Valor total da compra: R$233,19
+Pedido numero 4:Populacao 4000 de tamanho:Valor total da compra: R$164,00
+Pedido numero 4:Populacao 4000 de tamanho:Valor total da compra: R$155,60
+Pedido numero 4:Populacao 4000 de tamanho:Valor total da compra: R$170,78
+Pedido numero 4:Populacao 4000 de tamanho:Valor total da compra: R$158,58
+Pedido numero 4:Populacao 4000 de tamanho:Valor total da compra: R$162,78
+Pedido numero 4:Populacao 4000 de tamanho:Valor total da compra: R$160,34
+Pedido numero 4:Populacao 4000 de tamanho:Valor total da compra: R$165,71
+Pedido numero 4:Populacao 4000 de tamanho:Valor total da compra: R$173,97
+Pedido numero 4:Populacao 4000 de tamanho:Valor total da compra: R$166,49
+Pedido numero 4:Populacao 4000 de tamanho:Valor total da compra: R$171,94
+Pedido numero 4:Populacao 8000 de tamanho:Valor total da compra: R$172,34
+Pedido numero 4:Populacao 8000 de tamanho:Valor total da compra: R$186,56
+Pedido numero 4:Populacao 8000 de tamanho:Valor total da compra: R$199,38
+Pedido numero 4:Populacao 8000 de tamanho:Valor total da compra: R$195,95
+Pedido numero 4:Populacao 8000 de tamanho:Valor total da compra: R$177,59
+Pedido numero 4:Populacao 8000 de tamanho:Valor total da compra: R$187,27
+Pedido numero 4:Populacao 8000 de tamanho:Valor total da compra: R$206,87
+Pedido numero 4:Populacao 8000 de tamanho:Valor total da compra: R$201,34
+Pedido numero 4:Populacao 8000 de tamanho:Valor total da compra: R$190,45
+Pedido numero 4:Populacao 8000 de tamanho:Valor total da compra: R$190,06
+Pedido numero 4:Populacao 14000 de tamanho:Valor total da compra: R$325,48
+Pedido numero 4:Populacao 14000 de tamanho:Valor total da compra: R$322,63
+Pedido numero 4:Populacao 14000 de tamanho:Valor total da compra: R$319,98
+Pedido numero 4:Populacao 14000 de tamanho:Valor total da compra: R$326,34
+Pedido numero 4:Populacao 14000 de tamanho:Valor total da compra: R$321,01
+Pedido numero 4:Populacao 14000 de tamanho:Valor total da compra: R$326,69
+Pedido numero 4:Populacao 14000 de tamanho:Valor total da compra: R$334,49
+Pedido numero 4:Populacao 14000 de tamanho:Valor total da compra: R$306,42
+Pedido numero 4:Populacao 14000 de tamanho:Valor total da compra: R$321,80
+Pedido numero 4:Populacao 14000 de tamanho:Valor total da compra: R$329,95
+Novo Top1 em 1620575523032s. Pedido numero 1:Populacao 100 de tamanho:Valor total da compra: R$188,58
+Novo Top1 em 1620575523407s. Pedido numero 1:Populacao 100 de tamanho:Valor total da compra: R$195,14
+Novo Top1 em 1620575523627s. Pedido numero 1:Populacao 100 de tamanho:Valor total da compra: R$188,62
+Novo Top1 em 1620575523892s. Pedido numero 1:Populacao 100 de tamanho:Valor total da compra: R$194,26
+Novo Top1 em 1620575524154s. Pedido numero 1:Populacao 100 de tamanho:Valor total da compra: R$209,65
+Novo Top1 em 1620575524368s. Pedido numero 1:Populacao 100 de tamanho:Valor total da compra: R$175,13
+Novo Top1 em 1620575524581s. Pedido numero 1:Populacao 100 de tamanho:Valor total da compra: R$221,95
+Novo Top1 em 1620575524883s. Pedido numero 1:Populacao 100 de tamanho:Valor total da compra: R$183,47
+Novo Top1 em 1620575525199s. Pedido numero 1:Populacao 100 de tamanho:Valor total da compra: R$213,24
+Novo Top1 em 1620575525393s. Pedido numero 1:Populacao 100 de tamanho:Valor total da compra: R$166,94
+Novo Top1 em 1620575525590s. Pedido numero 2:Populacao 100 de tamanho:Valor total da compra: R$478,99
+Novo Top1 em 1620575525800s. Pedido numero 2:Populacao 100 de tamanho:Valor total da compra: R$490,59
+Novo Top1 em 1620575526000s. Pedido numero 2:Populacao 100 de tamanho:Valor total da compra: R$432,60
+Novo Top1 em 1620575526197s. Pedido numero 2:Populacao 100 de tamanho:Valor total da compra: R$478,06
+Novo Top1 em 1620575526400s. Pedido numero 2:Populacao 100 de tamanho:Valor total da compra: R$497,06
+Novo Top1 em 1620575526715s. Pedido numero 2:Populacao 100 de tamanho:Valor total da compra: R$464,50
+Novo Top1 em 1620575526915s. Pedido numero 2:Populacao 100 de tamanho:Valor total da compra: R$467,20
+Novo Top1 em 1620575527112s. Pedido numero 2:Populacao 100 de tamanho:Valor total da compra: R$411,46
+Novo Top1 em 1620575527305s. Pedido numero 2:Populacao 100 de tamanho:Valor total da compra: R$427,35
+Novo Top1 em 1620575527508s. Pedido numero 2:Populacao 100 de tamanho:Valor total da compra: R$489,27
+Novo Top1 em 1620575527724s. Pedido numero 3:Populacao 100 de tamanho:Valor total da compra: R$932,87
+Novo Top1 em 1620575527919s. Pedido numero 3:Populacao 100 de tamanho:Valor total da compra: R$848,35
+Novo Top1 em 1620575528125s. Pedido numero 3:Populacao 100 de tamanho:Valor total da compra: R$868,65
+Novo Top1 em 1620575528324s. Pedido numero 3:Populacao 100 de tamanho:Valor total da compra: R$948,60
+Novo Top1 em 1620575528521s. Pedido numero 3:Populacao 100 de tamanho:Valor total da compra: R$928,33
+Novo Top1 em 1620575528720s. Pedido numero 3:Populacao 100 de tamanho:Valor total da compra: R$959,59
+Novo Top1 em 1620575528918s. Pedido numero 3:Populacao 100 de tamanho:Valor total da compra: R$930,22
+Novo Top1 em 1620575529115s. Pedido numero 3:Populacao 100 de tamanho:Valor total da compra: R$934,59
+Novo Top1 em 1620575529310s. Pedido numero 3:Populacao 100 de tamanho:Valor total da compra: R$876,29
+Novo Top1 em 1620575529501s. Pedido numero 3:Populacao 100 de tamanho:Valor total da compra: R$968,66
+Novo Top1 em 1620575529697s. Pedido numero 4:Populacao 100 de tamanho:Valor total da compra: R$1842,43
+Novo Top1 em 1620575529904s. Pedido numero 4:Populacao 100 de tamanho:Valor total da compra: R$1826,52
+Novo Top1 em 1620575530103s. Pedido numero 4:Populacao 100 de tamanho:Valor total da compra: R$1885,29
+Novo Top1 em 1620575530301s. Pedido numero 4:Populacao 100 de tamanho:Valor total da compra: R$1922,46
+Novo Top1 em 1620575530502s. Pedido numero 4:Populacao 100 de tamanho:Valor total da compra: R$1907,38
+Novo Top1 em 1620575530703s. Pedido numero 4:Populacao 100 de tamanho:Valor total da compra: R$1709,33
+Novo Top1 em 1620575530903s. Pedido numero 4:Populacao 100 de tamanho:Valor total da compra: R$1832,97
+Novo Top1 em 1620575531106s. Pedido numero 4:Populacao 100 de tamanho:Valor total da compra: R$1827,51
+Novo Top1 em 1620575531302s. Pedido numero 4:Populacao 100 de tamanho:Valor total da compra: R$1958,76
+Novo Top1 em 1620575531502s. Pedido numero 4:Populacao 100 de tamanho:Valor total da compra: R$1949,56
+Novo Top1 em 1620575545496s. Pedido numero 1:Populacao 100 de tamanho:Valor total da compra: R$236,29
+Novo Top1 em 1620575545798s. Pedido numero 2:Populacao 100 de tamanho:Valor total da compra: R$466,56
+Novo Top1 em 1620575546056s. Pedido numero 3:Populacao 100 de tamanho:Valor total da compra: R$906,84
+Novo Top1 em 1620575546282s. Pedido numero 4:Populacao 100 de tamanho:Valor total da compra: R$1873,32
+Novo Top1 em 1620575649315s. Pedido numero 1:Populacao 100 de tamanho:Valor total da compra: R$190,81
+Novo Top1 em 1620575649593s. Pedido numero 2:Populacao 100 de tamanho:Valor total da compra: R$434,35
+Novo Top1 em 1620575649847s. Pedido numero 3:Populacao 100 de tamanho:Valor total da compra: R$868,76
+Novo Top1 em 1620575650066s. Pedido numero 4:Populacao 100 de tamanho:Valor total da compra: R$1917,18
+Novo Top1 em 1620588927188s. Pedido numero 1:Populacao 1000 de tamanho:Valor total da compra: R$19,69
+Novo Top1 em 1620588929373s. Pedido numero 1:Populacao 1000 de tamanho:Valor total da compra: R$22,66
+Novo Top1 em 1620588931401s. Pedido numero 1:Populacao 1000 de tamanho:Valor total da compra: R$18,39
+Novo Top1 em 1620588933278s. Pedido numero 1:Populacao 1000 de tamanho:Valor total da compra: R$21,30
+Novo Top1 em 1620588935338s. Pedido numero 1:Populacao 1000 de tamanho:Valor total da compra: R$18,07
+Novo Top1 em 1620588937117s. Pedido numero 1:Populacao 1000 de tamanho:Valor total da compra: R$18,56
+Novo Top1 em 1620588938880s. Pedido numero 1:Populacao 1000 de tamanho:Valor total da compra: R$28,33
+Novo Top1 em 1620588940614s. Pedido numero 1:Populacao 1000 de tamanho:Valor total da compra: R$18,75
+Novo Top1 em 1620588942344s. Pedido numero 1:Populacao 1000 de tamanho:Valor total da compra: R$18,36
+Novo Top1 em 1620588944155s. Pedido numero 1:Populacao 1000 de tamanho:Valor total da compra: R$18,69
+Novo Top1 em 1620588945885s. Pedido numero 1:Populacao 4000 de tamanho:Valor total da compra: R$12,72
+Novo Top1 em 1620588953355s. Pedido numero 1:Populacao 4000 de tamanho:Valor total da compra: R$12,72
+Novo Top1 em 1620588962106s. Pedido numero 1:Populacao 4000 de tamanho:Valor total da compra: R$12,72
+Novo Top1 em 1620588968828s. Pedido numero 1:Populacao 4000 de tamanho:Valor total da compra: R$12,72
+Novo Top1 em 1620589137919s. Pedido numero 1:Populacao 1000 de tamanho:Valor total da compra: R$19,59
+Novo Top1 em 1620589140410s. Pedido numero 1:Populacao 1000 de tamanho:Valor total da compra: R$20,35
+Novo Top1 em 1620642402197s. Pedido numero 1:Populacao 1000 de tamanho:Valor total da compra: R$12,72
+Novo Top1 em 1620642405396s. Pedido numero 1:Populacao 1000 de tamanho:Valor total da compra: R$19,89
+Novo Top1 em 1620642407719s. Pedido numero 1:Populacao 1000 de tamanho:Valor total da compra: R$18,40
+Novo Top1 em 1620642409985s. Pedido numero 1:Populacao 1000 de tamanho:Valor total da compra: R$12,72
+Novo Top1 em 1620642412103s. Pedido numero 1:Populacao 1000 de tamanho:Valor total da compra: R$21,91
+Novo Top1 em 1620642414105s. Pedido numero 1:Populacao 1000 de tamanho:Valor total da compra: R$18,57
+Novo Top1 em 1620642416146s. Pedido numero 1:Populacao 1000 de tamanho:Valor total da compra: R$18,69
+Novo Top1 em 1620642418234s. Pedido numero 1:Populacao 1000 de tamanho:Valor total da compra: R$12,72
+Novo Top1 em 1620642420267s. Pedido numero 1:Populacao 1000 de tamanho:Valor total da compra: R$22,51
+Novo Top1 em 1620642422367s. Pedido numero 1:Populacao 1000 de tamanho:Valor total da compra: R$20,94
+Novo Top1 em 1620642424461s. Pedido numero 1:Populacao 4000 de tamanho:Valor total da compra: R$12,72
+Novo Top1 em 1620642430284s. Pedido numero 1:Populacao 4000 de tamanho:Valor total da compra: R$12,72
+Novo Top1 em 1620642436619s. Pedido numero 1:Populacao 4000 de tamanho:Valor total da compra: R$18,36
+Novo Top1 em 1620642443306s. Pedido numero 1:Populacao 4000 de tamanho:Valor total da compra: R$12,72
+Novo Top1 em 1620642450501s. Pedido numero 1:Populacao 4000 de tamanho:Valor total da compra: R$12,72
+Novo Top1 em 1620642457446s. Pedido numero 1:Populacao 4000 de tamanho:Valor total da compra: R$12,72
+Novo Top1 em 1620642463812s. Pedido numero 1:Populacao 4000 de tamanho:Valor total da compra: R$12,72
+Novo Top1 em 1620642470595s. Pedido numero 1:Populacao 4000 de tamanho:Valor total da compra: R$12,72
+Novo Top1 em 1620642477650s. Pedido numero 1:Populacao 4000 de tamanho:Valor total da compra: R$12,72
+Novo Top1 em 1620642486060s. Pedido numero 1:Populacao 4000 de tamanho:Valor total da compra: R$12,72
+Novo Top1 em 1620642494389s. Pedido numero 1:Populacao 8000 de tamanho:Valor total da compra: R$12,72
+Novo Top1 em 1620642513182s. Pedido numero 1:Populacao 8000 de tamanho:Valor total da compra: R$12,72
+Novo Top1 em 1620642532933s. Pedido numero 1:Populacao 8000 de tamanho:Valor total da compra: R$12,72
+Novo Top1 em 1620642552935s. Pedido numero 1:Populacao 8000 de tamanho:Valor total da compra: R$12,72
+Novo Top1 em 1620642573846s. Pedido numero 1:Populacao 8000 de tamanho:Valor total da compra: R$12,72
+Novo Top1 em 1620642596132s. Pedido numero 1:Populacao 8000 de tamanho:Valor total da compra: R$12,72
+Novo Top1 em 1620642616469s. Pedido numero 1:Populacao 8000 de tamanho:Valor total da compra: R$12,72
+Novo Top1 em 1620642638468s. Pedido numero 1:Populacao 8000 de tamanho:Valor total da compra: R$12,72
+Novo Top1 em 1620642658875s. Pedido numero 1:Populacao 8000 de tamanho:Valor total da compra: R$12,72
+Novo Top1 em 1620642679129s. Pedido numero 1:Populacao 8000 de tamanho:Valor total da compra: R$12,72
+Novo Top1 em 1620642700090s. Pedido numero 1:Populacao 14000 de tamanho:Valor total da compra: R$12,72
+Novo Top1 em 1620642746777s. Pedido numero 1:Populacao 14000 de tamanho:Valor total da compra: R$12,72
+Novo Top1 em 1620642792501s. Pedido numero 1:Populacao 14000 de tamanho:Valor total da compra: R$12,72
+Novo Top1 em 1620642838200s. Pedido numero 1:Populacao 14000 de tamanho:Valor total da compra: R$12,72
+Novo Top1 em 1620642885130s. Pedido numero 1:Populacao 14000 de tamanho:Valor total da compra: R$12,72
+Novo Top1 em 1620642933603s. Pedido numero 1:Populacao 14000 de tamanho:Valor total da compra: R$12,72
+Novo Top1 em 1620642982647s. Pedido numero 1:Populacao 14000 de tamanho:Valor total da compra: R$12,72
+Novo Top1 em 1620643029760s. Pedido numero 1:Populacao 14000 de tamanho:Valor total da compra: R$12,72
+Novo Top1 em 1620643078417s. Pedido numero 1:Populacao 14000 de tamanho:Valor total da compra: R$12,72
+Novo Top1 em 1620643127898s. Pedido numero 1:Populacao 14000 de tamanho:Valor total da compra: R$12,72
+Novo Top1 em 1620643174508s. Pedido numero 2:Populacao 1000 de tamanho:Valor total da compra: R$40,84
+Novo Top1 em 1620643179654s. Pedido numero 2:Populacao 1000 de tamanho:Valor total da compra: R$50,44
+Novo Top1 em 1620643184561s. Pedido numero 2:Populacao 1000 de tamanho:Valor total da compra: R$34,52
+Novo Top1 em 1620643189574s. Pedido numero 2:Populacao 1000 de tamanho:Valor total da compra: R$43,33
+Novo Top1 em 1620643194651s. Pedido numero 2:Populacao 1000 de tamanho:Valor total da compra: R$56,19
+Novo Top1 em 1620643199555s. Pedido numero 2:Populacao 1000 de tamanho:Valor total da compra: R$47,64
+Novo Top1 em 1620643204658s. Pedido numero 2:Populacao 1000 de tamanho:Valor total da compra: R$30,87
+Novo Top1 em 1620643209852s. Pedido numero 2:Populacao 1000 de tamanho:Valor total da compra: R$37,09
+Novo Top1 em 1620643215096s. Pedido numero 2:Populacao 1000 de tamanho:Valor total da compra: R$35,26
+Novo Top1 em 1620643220325s. Pedido numero 2:Populacao 1000 de tamanho:Valor total da compra: R$42,19
+Novo Top1 em 1620643225569s. Pedido numero 2:Populacao 4000 de tamanho:Valor total da compra: R$24,52
+Novo Top1 em 1620643241399s. Pedido numero 2:Populacao 4000 de tamanho:Valor total da compra: R$31,14
+Novo Top1 em 1620643255159s. Pedido numero 2:Populacao 4000 de tamanho:Valor total da compra: R$30,22
+Novo Top1 em 1620643269767s. Pedido numero 2:Populacao 4000 de tamanho:Valor total da compra: R$25,13
+Novo Top1 em 1620643283765s. Pedido numero 2:Populacao 4000 de tamanho:Valor total da compra: R$24,27
+Novo Top1 em 1620645916034s. Pedido numero 1:Populacao 1000 de tamanho:Valor total da compra: R$25,32
+Novo Top1 em 1620645918353s. Pedido numero 1:Populacao 1000 de tamanho:Valor total da compra: R$18,36
