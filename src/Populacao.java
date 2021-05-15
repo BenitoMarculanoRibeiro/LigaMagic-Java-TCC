@@ -34,6 +34,7 @@ public class Populacao {
 		this.top1 = top1;
 	}
 
+
 	public void cruzamentoMonoPonto(Cromossomo pai, Cromossomo mae, ArrayList<Item> pedido, ArrayList<Frete> frete) {
 		Random aleatorio = new Random();
 		// Gene gene = this.cromossomo.get(aleatorio.nextInt(this.cromossomo.size()));
@@ -46,26 +47,23 @@ public class Populacao {
 		Cromossomo filho1 = new Cromossomo();
 		Cromossomo filho2 = new Cromossomo();
 		int i = 0;
-		for (i = 0; i < pai.getCromossomo().size(); i++) {
-			if (pai.getCromossomo().get(i).getCarta().getId() == ponto) {
-				break;
+		boolean status = true;
+		System.out.println("Pasdf");
+		System.out.println(pai);
+		System.out.println(mae);
+		for (i = 1; i < pai.getCromossomo().size(); i++) {
+			if (pai.getCromossomo().get(i).getCarta().getId() == ponto && pai.getCromossomo().get(i).getCarta()
+					.getId() != pai.getCromossomo().get(i - 1).getCarta().getId()) {
+				status = false;
+			}
+			if (status) {
+				filho1.getCromossomo().add(pai.getCromossomo().get(i));
+				filho2.getCromossomo().add(mae.getCromossomo().get(i));
+			} else {
+				filho1.getCromossomo().add(mae.getCromossomo().get(i));
+				filho2.getCromossomo().add(pai.getCromossomo().get(i));
 			}
 		}
-
-		System.out.println(i + "-" + mae.getCromossomo().size());
-		System.out.println(i + "-" + pai.getCromossomo().size());
-		filho1.getCromossomo().addAll(pai.getCromossomo().subList(0, i));
-		System.out.println(i + "-" + mae.getCromossomo().size());
-		System.out.println(i + "-" + pai.getCromossomo().size());
-		filho1.getCromossomo().addAll(mae.getCromossomo().subList(i, pai.getCromossomo().size()));
-		System.out.println(i + "-" + mae.getCromossomo().size());
-		System.out.println(i + "-" + pai.getCromossomo().size());
-		filho2.getCromossomo().addAll(mae.getCromossomo().subList(0, i));
-		System.out.println(i + "-" + mae.getCromossomo().size());
-		System.out.println(i + "-" + pai.getCromossomo().size());
-		filho2.getCromossomo().addAll(pai.getCromossomo().subList(i, pai.getCromossomo().size()));
-		System.out.println(i + "-" + mae.getCromossomo().size());
-		System.out.println(i + "-" + pai.getCromossomo().size());
 		filho1.avaliacao(frete);
 		filho2.avaliacao(frete);
 		if (this.top1.getFitness() > filho1.getFitness()) {
@@ -103,6 +101,7 @@ public class Populacao {
 		for (Cromossomo cromossomo : this.populacao) {
 			Random aleatorio = new Random();
 			if (aleatorio.nextInt(101) < chaceMutacao) {
+				Cromossomo deepCopy = (Cromossomo) cromossomo.clone();
 				Cromossomo mutante = (Cromossomo) cromossomo.clone();
 				mutante.mutacao(frete);
 				this.populacao.add(mutante);

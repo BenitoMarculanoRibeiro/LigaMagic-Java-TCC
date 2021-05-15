@@ -31,11 +31,37 @@ public class Item implements Cloneable {
     }
 
     @Override
-    public Object clone() {
-        try {
-            return (Item) super.clone();
-        } catch (CloneNotSupportedException e) {
-            return new Item(this.carta, this.qtd);
-        }
+    public int hashCode() {
+        final int prime = 31;
+        int result = 1;
+        result = prime * result + ((carta == null) ? 0 : carta.hashCode());
+        result = prime * result + qtd;
+        return result;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj)
+            return true;
+        if (obj == null)
+            return false;
+        if (getClass() != obj.getClass())
+            return false;
+        Item other = (Item) obj;
+        if (carta == null) {
+            if (other.carta != null)
+                return false;
+        } else if (!carta.equals(other.carta))
+            return false;
+        if (qtd != other.qtd)
+            return false;
+        return true;
+    }
+
+    @Override
+    public Object clone() throws CloneNotSupportedException {
+        Item item = (Item) super.clone();
+        item.carta = (Carta) this.carta.clone();
+        return item;
     }
 }

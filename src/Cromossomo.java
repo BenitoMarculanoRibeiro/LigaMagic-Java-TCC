@@ -3,7 +3,6 @@ import java.util.Arrays;
 import java.util.Random;
 import java.util.List;
 import java.util.stream.Collectors;
-import java.util.Iterator;
 
 public class Cromossomo {
 	private ArrayList<Gene> cromossomo; // 0 = loja / 1 = card
@@ -38,16 +37,16 @@ public class Cromossomo {
 	public void preencherComossomo(ArrayList<Item> pedido, ArrayList<Frete> frete) {
 		ArrayList<Item> copiaPedido = new ArrayList<>();
 		for (Item item : pedido) {
-			copiaPedido.add((Item)item.clone());
+			ArrayList<Float> vetPrec = new ArrayList<>();
+			ArrayList<Integer> vetQt = new ArrayList<>();
+			for (int i = 0; i < item.getCarta().getVetPreco().size(); i++) {
+				vetPrec.add(item.getCarta().getPrecoPos(i));
+				vetQt.add(item.getCarta().getQtdPos(i));
+			}
+			Carta carta = new Carta((int) item.getCarta().getId(), (String) item.getCarta().getNome(), vetPrec, vetQt);
+			Item i = new Item(carta, (int) item.getQtd());
+			copiaPedido.add(i);
 		}
-		System.out.println(pedido.get(0));
-		System.out.println("\n\n\n\n");
-		System.out.println(copiaPedido.get(0));
-		System.out.println("\n\nNovo\n\n");
-		copiaPedido.get(0).getCarta().menos1(0);
-		System.out.println(pedido.get(0));
-		System.out.println("\n\n\n\n");
-		System.out.println(copiaPedido.get(0));
 		for (Item item : copiaPedido) {
 			ArrayList<Integer> aux = sample(range(0, item.getCarta().getVetQtd().size()),
 					item.getCarta().getVetQtd().size());
@@ -132,16 +131,6 @@ public class Cromossomo {
 		return texto;
 	}
 
-	@Override
-	public Object clone() throws CloneNotSupportedException {
-		double fitness = this.fitness;
-		ArrayList<Gene> cromossomo = new ArrayList<>();
-		for (int i = 0; i < this.cromossomo.size(); i++) {
-			cromossomo.add((Gene) this.cromossomo.get(i).clone());
-		}
-		return new Cromossomo(cromossomo, fitness);
-	}
-
 	public int compareTo(Object o) {
 		Cromossomo cromossomo = (Cromossomo) o;
 		if (this.fitness < cromossomo.fitness) {
@@ -182,4 +171,11 @@ public class Cromossomo {
 			return false;
 		return true;
 	}
+
+	@Override
+	protected Object clone() throws CloneNotSupportedException {
+		// TODO Auto-generated method stub
+		return super.clone();
+	}
+
 }

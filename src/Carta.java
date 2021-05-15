@@ -13,11 +13,6 @@ public class Carta implements Cloneable {
 		this.vetQtd = vetQtd;
 	}
 
-	@Override
-	public Object clone() throws CloneNotSupportedException {
-		return super.clone();
-	}
-
 	public void setId(int id) {
 		this.id = id;
 	}
@@ -64,6 +59,15 @@ public class Carta implements Cloneable {
 
 	public int getQtdPos(int i) {
 		return this.vetQtd.get(i);
+	}
+
+	@Override
+	public Object clone() {
+		try {
+			return (Carta) super.clone();
+		} catch (CloneNotSupportedException e) {
+			return new Carta(this.getId(), this.getNome(), this.getVetPreco(), this.getVetQtd());
+		}
 	}
 
 	public String toString() {
