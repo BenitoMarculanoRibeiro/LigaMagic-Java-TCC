@@ -37,7 +37,7 @@ public class Populacao {
 	public void cruzamentoMonoPonto(Cromossomo pai, Cromossomo mae, ArrayList<Item> pedido, ArrayList<Frete> frete) {
 		Random aleatorio = new Random();
 		// Gene gene = this.cromossomo.get(aleatorio.nextInt(this.cromossomo.size()));
-		System.out.println("Cromossomo: "+pai);
+		System.out.println("Cromossomo: " + pai);
 		int alet = aleatorio.nextInt(pai.getCromossomo().size());
 		System.out.println("Tamanho Cromossomo: " + pai.getCromossomo().size());
 		System.out.println("Alet: " + alet);
@@ -51,10 +51,21 @@ public class Populacao {
 				break;
 			}
 		}
+
+		System.out.println(i + "-" + mae.getCromossomo().size());
+		System.out.println(i + "-" + pai.getCromossomo().size());
 		filho1.getCromossomo().addAll(pai.getCromossomo().subList(0, i));
-		filho1.getCromossomo().addAll(mae.getCromossomo().subList(i, mae.getCromossomo().size()));
+		System.out.println(i + "-" + mae.getCromossomo().size());
+		System.out.println(i + "-" + pai.getCromossomo().size());
+		filho1.getCromossomo().addAll(mae.getCromossomo().subList(i, pai.getCromossomo().size()));
+		System.out.println(i + "-" + mae.getCromossomo().size());
+		System.out.println(i + "-" + pai.getCromossomo().size());
 		filho2.getCromossomo().addAll(mae.getCromossomo().subList(0, i));
+		System.out.println(i + "-" + mae.getCromossomo().size());
+		System.out.println(i + "-" + pai.getCromossomo().size());
 		filho2.getCromossomo().addAll(pai.getCromossomo().subList(i, pai.getCromossomo().size()));
+		System.out.println(i + "-" + mae.getCromossomo().size());
+		System.out.println(i + "-" + pai.getCromossomo().size());
 		filho1.avaliacao(frete);
 		filho2.avaliacao(frete);
 		if (this.top1.getFitness() > filho1.getFitness()) {
@@ -113,7 +124,6 @@ public class Populacao {
 		Random aleatorio = new Random();
 		return lista.remove(aleatorio.nextInt(lista.size()));
 	}
-
 
 	@Override
 	public int hashCode() {
