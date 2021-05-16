@@ -1,35 +1,27 @@
+import java.util.ArrayList;
 
 public class Teste {
 	public static void main(String[] args) {
-		// ArrayList<Print> list = new ArrayList<>();
-		// int contador = 0;
-		// Print p = new Print();
-		/// int[] x = { 1000 };
-		// final String path = "armazenar.txt";
-		/*
-		 * final String urlPreco = "ligamagicPreco2.txt"; final String urlQtd =
-		 * "ligamagicQtd2.txt";
-		 * 
-		 * final String urlLojas = "ligamagicFrete.txt"; for (int i = 1; i <= 4; i++) {
-		 * for (int ab = 0; ab < 1; ab++) { final String urlPedido = "ligamagicPedido" +
-		 * i + ".txt"; final int tamPop = 1000; final int tamPopTop = 10; final int
-		 * tipoCromossomo = 1;// 1 = randomico, 2 = menor pre�o carta, 3 = menor frete
-		 * Card[] vetCard = ControlArq.carregaCards(urlQtd, urlPreco); Loja[] vetLoja =
-		 * ControlArq.carregaLojas(urlLojas); Pedido ped =
-		 * ControlArq.carregaPedido(urlPedido); long t = System.currentTimeMillis();
-		 * Populacao pop = new Populacao(tamPop, vetCard, vetLoja, ped, tamPopTop,
-		 * tipoCromossomo); t = System.currentTimeMillis() - t;
-		 * System.out.println("Tempo: " + t + " Pedido: " + i + " Tam: " + tamPop +
-		 * " Vetor: " + pop.getTop1().exibe3(vetCard, vetLoja)); }
-		 * 
-		 * }
-		 * 
-		 * final String urlPedido = "ligamagicPedido1.txt";
-		 * 
-		 * Pedido ped = ControlArq.carregaPedido(urlPedido);
-		 * System.out.println(ped.getVetCodigo()[0]);
-		 * 
-		 * System.out.println(ped.getVetCodigo()[1]);
-		 */
+		ArrayList<Long> vet = new ArrayList<Long>();
+		vet.add((long) 10);
+		vet.add((long) 100);
+		vet.add((long) 1000);
+		vet.add((long) 10000);
+		vet.add((long) 100000);
+		vet.add((long) 1000000);
+		vet.add((long) 10000000);
+		vet.add((long) 100000000);
+		vet.add((long) 1000000000);
+		for (Long k : vet) {
+			long t1 = System.currentTimeMillis();
+			for (int j = 0; j < 10; j++) {
+				long i = 0;
+				for (i = 0; i < k; i++) {
+				}
+			}
+			long t2 = System.currentTimeMillis();
+			long total = t2 - t1;
+			System.out.println("Tamanho: " + k + " Media Milisegundos: " + total / 10);
+		}
 	}
 }

@@ -1,9 +1,11 @@
-import java.util.ArrayList;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.io.LineNumberReader;
+import java.io.PrintWriter;
+import java.util.ArrayList;
 
 public class Control {
     public static ArrayList<ArrayList<String>> lerArquivo(String caminho) {
@@ -63,5 +65,92 @@ public class Control {
             saida.add(it);
         }
         return saida;
+    }
+
+    public static String converter(String pedido, ArrayList<String> arrayInicioPopulacao,
+            ArrayList<String> arraySelecao, ArrayList<String> arrayCruzamtento, ArrayList<String> arrayMutacao,
+            ArrayList<String> arrayInsercao, ArrayList<String> arrayTempoTotal, ArrayList<String> arrayFitness) {
+        String texto = "{\n    \"" + pedido + "\":[{\n";
+        for (int i = 0; i < arrayTempoTotal.size(); i++) {
+            if (i == 0) {
+                texto += "\"" + arrayTempoTotal.get(i) + "\": [";
+            } else if (i == (arrayTempoTotal.size() - 1)) {
+                texto += "\"" + arrayTempoTotal.get(i) + "\"]";
+            } else {
+                texto += "\"" + arrayTempoTotal.get(i) + "\" , ";
+            }
+        }
+        texto += "},\n{";
+        for (int i = 0; i < arrayFitness.size(); i++) {
+            if (i == 0) {
+                texto += "\"" + arrayFitness.get(i) + "\": [";
+            } else if (i == (arrayFitness.size() - 1)) {
+                texto += "\"" + arrayFitness.get(i) + "\"]";
+            } else {
+                texto += "\"" + arrayFitness.get(i) + "\" , ";
+            }
+        }
+        texto += "},\n    {";
+        for (int i = 0; i < arrayInicioPopulacao.size(); i++) {
+            if (i == 0) {
+                texto += "\"" + arrayInicioPopulacao.get(i) + "\": [";
+            } else if (i == (arrayInicioPopulacao.size() - 1)) {
+                texto += "\"" + arrayInicioPopulacao.get(i) + "\"]";
+            } else {
+                texto += "\"" + arrayInicioPopulacao.get(i) + "\" , ";
+            }
+        }
+        texto += "},\n{";
+        for (int i = 0; i < arraySelecao.size(); i++) {
+            if (i == 0) {
+                texto += "\"" + arraySelecao.get(i) + "\": [";
+            } else if (i == (arraySelecao.size() - 1)) {
+                texto += "\"" + arraySelecao.get(i) + "\"]";
+            } else {
+                texto += "\"" + arraySelecao.get(i) + "\" , ";
+            }
+        }
+        texto += "},\n    {";
+
+        for (int i = 0; i < arrayCruzamtento.size(); i++) {
+
+            if (i == 0) {
+                texto += "\"" + arrayCruzamtento.get(i) + "\": [";
+            } else if (i == (arrayCruzamtento.size() - 1)) {
+                texto += "\"" + arrayCruzamtento.get(i) + "\"]";
+            } else {
+                texto += "\"" + arrayCruzamtento.get(i) + "\" , ";
+            }
+        }
+        texto += "},\n{";
+        for (int i = 0; i < arrayMutacao.size(); i++) {
+            if (i == 0) {
+                texto += "\"" + arrayMutacao.get(i) + "\": [";
+            } else if (i == (arrayMutacao.size() - 1)) {
+                texto += "\"" + arrayMutacao.get(i) + "\"]";
+            } else {
+                texto += "\"" + arrayMutacao.get(i) + "\" , ";
+            }
+        }
+        texto += "},\n    {";
+
+        for (int i = 0; i < arrayInsercao.size(); i++) {
+            if (i == 0) {
+                texto += "\"" + arrayInsercao.get(i) + "\": [";
+            } else if (i == (arrayInsercao.size() - 1)) {
+                texto += "\"" + arrayInsercao.get(i) + "\"]";
+            } else {
+                texto += "\"" + arrayInsercao.get(i) + "\" , ";
+            }
+        }
+        texto += "}]\n}";
+        return texto;
+    }
+
+    public static void gravar(String caminho, String texto) throws IOException {
+        FileWriter arq = new FileWriter(caminho);
+        PrintWriter gravarArq = new PrintWriter(arq);
+        gravarArq.printf(texto);
+        arq.close();
     }
 }

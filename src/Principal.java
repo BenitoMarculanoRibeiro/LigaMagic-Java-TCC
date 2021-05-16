@@ -26,12 +26,17 @@ public class Principal {
 		top1 = populacao.getTop1();
 		while (cont <= falhas) {
 			// double t1 = System.currentTimeMillis();
+			System.out.println("\n\nBanana");
 			populacao.selecao(tam);
+			System.out.println(populacao.getPopulacao().size());
 			populacao.cruzamento(pedido, frete, tam);
+			System.out.println(populacao.getPopulacao().size());
 			populacao.mutacao(frete, chaceMutacao);
+			System.out.println(populacao.getPopulacao().size());
 			populacao.insercao(pedido, frete, tam);
+			System.out.println(populacao.getPopulacao().size());
 			if (top1.getFitness() > populacao.getTop1().getFitness()) {
-				cont = 0;
+				//cont = 0;
 				top1 = populacao.getTop1();
 			}
 			cont++;
