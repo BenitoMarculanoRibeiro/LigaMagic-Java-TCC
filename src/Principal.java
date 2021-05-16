@@ -7,7 +7,7 @@ public class Principal {
 		ArrayList<ArrayList<String>> vetPreco = Control.lerArquivo("ligamagicPreco2.txt");
 		ArrayList<ArrayList<String>> vetQtd = Control.lerArquivo("ligamagicQtd2.txt");
 		ArrayList<ArrayList<String>> vetPedido = Control.lerArquivo("ligamagicPedido1.txt");
-		//System.out.println(vetPedido.toString());
+		// System.out.println(vetPedido.toString());
 		ArrayList<Frete> frete = Control.geraVetorFrete(Control.lerArquivo("ligamagicFrete.txt"));
 		ArrayList<Item> pedido = Control.geraPedido(vetPedido, vetPreco, vetQtd);
 		int geracoes = 0;
@@ -16,15 +16,16 @@ public class Principal {
 		int falhas = 100;
 		int chaceMutacao = 3;
 
-		long tic = System.currentTimeMillis();
+		double tic = System.currentTimeMillis();
 
 		Cromossomo top1 = new Cromossomo();
+		top1.preencherComossomo(pedido, frete);
 		top1.avaliacao(frete);
 		Populacao populacao = new Populacao(pedido, frete, tam, top1);
 		populacao.getPopulacao().add(top1);
 		top1 = populacao.getTop1();
 		while (cont <= falhas) {
-			// long t1 = System.currentTimeMillis();
+			// double t1 = System.currentTimeMillis();
 			populacao.selecao(tam);
 			populacao.cruzamento(pedido, frete, tam);
 			populacao.mutacao(frete, chaceMutacao);
@@ -35,12 +36,12 @@ public class Principal {
 			}
 			cont++;
 			geracoes++;
-			long t2 = System.currentTimeMillis();
+			double t2 = System.currentTimeMillis();
 			System.out.println("Top1: " + populacao.getTop1().getFitness() + " Geração: " + geracoes + " Cont: " + cont
-					+ " Tempo de processamento: " + (t2 - tic) + "s.");
+					+ " Tempo de processamento: " + ((t2 - tic) / 1000) + "s.");
 		}
 
-		long toc = System.currentTimeMillis();
+		double toc = System.currentTimeMillis();
 		System.out.println("Top1 Global:\n" + top1.toString() + "\n");
 		System.out.println("Top1 População Final:\n" + populacao.getTop1().toString() + "\n");
 		System.out.println("Gerações: " + geracoes);
@@ -52,6 +53,6 @@ public class Principal {
 		System.out.println("Gerações: " + geracoes);
 		System.out.println("Tamanho: " + tam);
 		System.out.println("Falhas: " + falhas);
-		System.out.println("Tempo de processamento: " + (toc - tic) + "s.");
+		System.out.println("Tempo de processamento: " + ((toc - tic) / 1000) + "s.");
 	}
 }

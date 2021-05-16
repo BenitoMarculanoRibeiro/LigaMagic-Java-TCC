@@ -35,21 +35,11 @@ public class Cromossomo {
 	}
 
 	public void preencherComossomo(ArrayList<Item> pedido, ArrayList<Frete> frete) {
-		ArrayList<Item> copiaPedido = new ArrayList<>();
-		for (Item item : pedido) {
-			ArrayList<Float> vetPrec = new ArrayList<>();
-			ArrayList<Integer> vetQt = new ArrayList<>();
-			for (int i = 0; i < item.getCarta().getVetPreco().size(); i++) {
-				vetPrec.add(item.getCarta().getPrecoPos(i));
-				vetQt.add(item.getCarta().getQtdPos(i));
-			}
-			Carta carta = new Carta((int) item.getCarta().getId(), (String) item.getCarta().getNome(), vetPrec, vetQt);
-			Item i = new Item(carta, (int) item.getQtd());
-			copiaPedido.add(i);
-		}
+		ArrayList<Item> copiaPedido = copiaPedido(pedido);
 		for (Item item : copiaPedido) {
-			ArrayList<Integer> aux = sample(range(0, item.getCarta().getVetQtd().size()),
-					item.getCarta().getVetQtd().size());
+			ArrayList<Integer> aux = sample(range(0, item.getCarta().getVetQtd().size() - 1),
+					item.getCarta().getVetQtd().size() - 1);
+			// System.out.println(aux);
 			// System.out.println(aux);
 			for (int j = 0; j < item.getQtd(); j++) {
 				for (int i : aux) {
@@ -58,10 +48,11 @@ public class Cromossomo {
 							Gene gene = new Gene(item.getCarta(), i);
 							item.getCarta().menos1(i);
 							this.cromossomo.add(gene);
+							// System.out.println("banana"+i);
 							break;
 						}
 					} catch (Exception e) {
-						System.out.println("Erro preencherCromossomo!");
+						System.out.println("Erro preencherCromossomo!" + i);
 					}
 					if (i == aux.get(aux.size() - 1)) {
 						System.out.println("Acabou a carta: " + item.getCarta().getNome() + ". Pedido Invalido.");
@@ -75,12 +66,29 @@ public class Cromossomo {
 
 	}
 
+	public Cromossomo copiaCromossomo() {
+		ArrayList<Gene> cromo = new ArrayList<>();
+		for (Gene gene : this.cromossomo) {
+			ArrayList<Float> vetPrec = new ArrayList<>();
+			ArrayList<Integer> vetQt = new ArrayList<>();
+			for (int i = 0; i < gene.getCarta().getVetPreco().size(); i++) {
+				vetPrec.add(gene.getCarta().getPrecoPos(i));
+				vetQt.add(gene.getCarta().getQtdPos(i));
+			}
+			Carta carta = new Carta((int) gene.getCarta().getId(), (String) gene.getCarta().getNome(), vetPrec, vetQt);
+			// Item i = new Item(carta, (int) item.getQtd());
+			Gene newGene = new Gene(carta, gene.getLoja());
+			cromo.add(newGene);
+		}
+		return new Cromossomo(cromo, this.fitness);
+	}
+
 	public void avaliacao(ArrayList<Frete> frete) {
 		double fitness = 0;
 		ArrayList<Integer> lojas = new ArrayList<Integer>();
 		for (Gene gen : this.cromossomo) {
 			fitness += gen.getCarta().getPrecoPos(gen.getLoja());
-			if (lojas.contains(gen.getLoja())) {
+			if (!lojas.contains(gen.getLoja())) {
 				fitness += frete.get(gen.getLoja()).getFrete();
 				lojas.add(gen.getLoja());
 			}
@@ -101,6 +109,22 @@ public class Cromossomo {
 				this.avaliacao(frete);
 			}
 		}
+	}
+
+	public ArrayList<Item> copiaPedido(ArrayList<Item> pedido) {
+		ArrayList<Item> copiaPedido = new ArrayList<>();
+		for (Item item : pedido) {
+			ArrayList<Float> vetPrec = new ArrayList<>();
+			ArrayList<Integer> vetQt = new ArrayList<>();
+			for (int i = 0; i < item.getCarta().getVetPreco().size(); i++) {
+				vetPrec.add(item.getCarta().getPrecoPos(i));
+				vetQt.add(item.getCarta().getQtdPos(i));
+			}
+			Carta carta = new Carta((int) item.getCarta().getId(), (String) item.getCarta().getNome(), vetPrec, vetQt);
+			Item i = new Item(carta, (int) item.getQtd());
+			copiaPedido.add(i);
+		}
+		return copiaPedido;
 	}
 
 	private int[] range(int de, int ate) {

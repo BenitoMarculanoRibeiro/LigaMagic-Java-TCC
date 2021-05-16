@@ -13,7 +13,7 @@ public class Populacao {
 			this.populacao.add(cromossomo);
 			if (cromossomo.getFitness() < this.top1.getFitness()) {
 				this.top1 = cromossomo;
-				System.out.println("Novo Cromossomo: " + cromossomo.getFitness());
+				//System.out.println("Novo Cromossomo:\n" + cromossomo.toString());
 			}
 		}
 	}
@@ -34,26 +34,16 @@ public class Populacao {
 		this.top1 = top1;
 	}
 
-
 	public void cruzamentoMonoPonto(Cromossomo pai, Cromossomo mae, ArrayList<Item> pedido, ArrayList<Frete> frete) {
 		Random aleatorio = new Random();
-		// Gene gene = this.cromossomo.get(aleatorio.nextInt(this.cromossomo.size()));
-		System.out.println("Cromossomo: " + pai);
-		int alet = aleatorio.nextInt(pai.getCromossomo().size());
-		System.out.println("Tamanho Cromossomo: " + pai.getCromossomo().size());
-		System.out.println("Alet: " + alet);
-		System.out.println(pai.getCromossomo().get(alet));
+		int alet = (aleatorio.nextInt((pai.getCromossomo().size())));
 		int ponto = pai.getCromossomo().get(alet).getCarta().getId();
 		Cromossomo filho1 = new Cromossomo();
 		Cromossomo filho2 = new Cromossomo();
 		int i = 0;
 		boolean status = true;
-		System.out.println("Pasdf");
-		System.out.println(pai);
-		System.out.println(mae);
-		for (i = 1; i < pai.getCromossomo().size(); i++) {
-			if (pai.getCromossomo().get(i).getCarta().getId() == ponto && pai.getCromossomo().get(i).getCarta()
-					.getId() != pai.getCromossomo().get(i - 1).getCarta().getId()) {
+		for (i = 0; i < pai.getCromossomo().size(); i++) {
+			if (pai.getCromossomo().get(i).getCarta().getId() == ponto && status == true) {
 				status = false;
 			}
 			if (status) {
@@ -68,20 +58,23 @@ public class Populacao {
 		filho2.avaliacao(frete);
 		if (this.top1.getFitness() > filho1.getFitness()) {
 			this.top1 = filho1;
-			System.out.println("Filho1 " + filho1.getFitness() + " é melhor que o Top1");
+			//System.out.println("Filho1 " + filho1.getFitness() + " é melhor que o Top1");
 		}
 		if (this.top1.getFitness() > filho2.getFitness()) {
 			this.top1 = filho2;
-			System.out.println("Filho1 " + filho2.getFitness() + " é melhor que o Top1");
+			//System.out.println("Filho2 " + filho2.getFitness() + " é melhor que o Top1");
 		}
+		// System.out.println("Filho1:\n" + filho2.toString());
+		// System.out.println("Filho2:\n" + filho2.toString());
 		this.populacao.add(filho1);
 		this.populacao.add(filho2);
 	}
 
 	public void cruzamento(ArrayList<Item> pedido, ArrayList<Frete> frete, int tam) {
-		ArrayList<Cromossomo> copiaPopulacao = (ArrayList<Cromossomo>) this.populacao.clone();
+		ArrayList<Cromossomo> copiaPopulacao = this.copiaPopulacao();
 		for (int i = 0; i < tam / 2; i++) {
 			this.cruzamentoMonoPonto(aleatorio(copiaPopulacao), aleatorio(copiaPopulacao), pedido, frete);
+
 		}
 	}
 
@@ -92,22 +85,22 @@ public class Populacao {
 			this.populacao.add(cromossomo);
 			if (cromossomo.getFitness() < this.top1.getFitness()) {
 				this.top1 = cromossomo;
-				System.out.println("Novo Cromossomo Inserção: " + cromossomo.getFitness());
+				//System.out.println("Novo Cromossomo Inserção: " + cromossomo.getFitness());
 			}
 		}
 	}
 
 	public void mutacao(ArrayList<Frete> frete, int chaceMutacao) {
-		for (Cromossomo cromossomo : this.populacao) {
+		ArrayList<Cromossomo> copiaPopulacao = this.copiaPopulacao();
+		for (Cromossomo cromossomo : copiaPopulacao) {
 			Random aleatorio = new Random();
 			if (aleatorio.nextInt(101) < chaceMutacao) {
-				Cromossomo deepCopy = (Cromossomo) cromossomo.clone();
-				Cromossomo mutante = (Cromossomo) cromossomo.clone();
+				Cromossomo mutante = cromossomo.copiaCromossomo();
 				mutante.mutacao(frete);
 				this.populacao.add(mutante);
 				if (mutante.getFitness() < this.top1.getFitness()) {
 					this.top1 = mutante;
-					System.out.println("Mutante: " + mutante.getFitness());
+					//System.out.println("Mutante: " + mutante.getFitness());
 				}
 			}
 		}
@@ -122,6 +115,29 @@ public class Populacao {
 	public static Cromossomo aleatorio(ArrayList<Cromossomo> lista) {
 		Random aleatorio = new Random();
 		return lista.remove(aleatorio.nextInt(lista.size()));
+	}
+
+	public ArrayList<Cromossomo> copiaPopulacao() {
+		ArrayList<Cromossomo> copiaCromossomo = new ArrayList<>();
+		for (Cromossomo cromossomo : this.populacao) {
+			ArrayList<Gene> cromo = new ArrayList<>();
+			for (Gene gene : cromossomo.getCromossomo()) {
+				ArrayList<Float> vetPrec = new ArrayList<>();
+				ArrayList<Integer> vetQt = new ArrayList<>();
+				for (int i = 0; i < gene.getCarta().getVetPreco().size(); i++) {
+					vetPrec.add(gene.getCarta().getPrecoPos(i));
+					vetQt.add(gene.getCarta().getQtdPos(i));
+				}
+				Carta carta = new Carta((int) gene.getCarta().getId(), (String) gene.getCarta().getNome(), vetPrec,
+						vetQt);
+				// Item i = new Item(carta, (int) item.getQtd());
+				Gene newGene = new Gene(carta, gene.getLoja());
+				cromo.add(newGene);
+			}
+			Cromossomo novoCromossomo = new Cromossomo(cromo, cromossomo.getFitness());
+			copiaCromossomo.add(novoCromossomo);
+		}
+		return copiaCromossomo;
 	}
 
 	@Override

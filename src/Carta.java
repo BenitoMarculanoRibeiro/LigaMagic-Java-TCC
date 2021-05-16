@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Carta implements Cloneable {
+public class Carta {
 	private int id;
 	private String nome;
 	private ArrayList<Float> vetPreco;

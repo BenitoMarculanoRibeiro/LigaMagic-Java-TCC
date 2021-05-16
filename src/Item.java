@@ -1,6 +1,5 @@
-import java.util.ArrayList;
 
-public class Item implements Cloneable {
+public class Item {
     private Carta carta;
     private int qtd;
 
